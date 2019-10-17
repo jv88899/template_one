@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './nav.css'
 
 class Nav extends Component {
     state = {
@@ -46,6 +47,9 @@ class Nav extends Component {
                         className="nav__menu"
                         onClick={this.handleMenuClick}
                     >
+                        <div className="nav__menu__bar"></div>
+                        <div className="nav__menu__bar"></div>
+                        <div className="nav__menu__bar"></div>
                     </div>
                 </div>
             </nav>
