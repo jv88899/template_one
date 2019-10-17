@@ -65,13 +65,19 @@
     width: 100%;
 }
 
+.header__links__hire {
+    background-color: rgba(126, 178, 222, 1);
+}
+
 .header__links__list.visible {
-    height: 30vh;
+    height: calc(75vh - 80px);
 }
 
 .header__links ul li {
     border-bottom: 1px solid #ccc;
-    padding: 10px 0;
+    font-size: 22px;
+    font-weight: 200;
+    padding: 30px 0;
     text-align: center;
     text-transform: uppercase;
 }
@@ -131,6 +137,30 @@
     width: 225px;
 }
 
+.header__contact__button {
+    background-color: rgba(221, 107, 13, 1);
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    height: 50px;
+    letter-spacing: 0;
+    line-height: 1.5;
+    margin-top: 10px;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    width: 225px;
+}
+
 .header__portfolio__button:hover {
     background-color: rgba(89, 155, 187, 1);
+}
+
+.header__contact__button:hover {
+    background-color: rgba(106, 158, 202, 1);
 }

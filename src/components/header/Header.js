@@ -37,7 +37,7 @@ class Header extends Component {
                                 <li>Portfolio</li>
                                 <li>Testimonials</li>
                                 <li>Contact</li>
-                                <li>Hire Me!</li>
+                                <li className="header__links__hire">Hire Me!</li>
                             </ul>
                         </div>
                         <div
@@ -58,6 +58,12 @@ class Header extends Component {
                         className="header__portfolio__button"
                     >
                         View Portfolio
+                    </a>
+                    <a
+                        href="/"
+                        className="header__contact__button"
+                    >
+                        Contact Me
                     </a>
                 </div>
             </header>
