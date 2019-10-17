@@ -1,14 +1,19 @@
 .header {
     background-color: #2098d1;
     color: #fff;
-    height: 80px;
+    height: 75vh;
     width: 100%;
 }
 
 .header__nav {
+    box-shadow: 2px 2px rgba(255, 255, 255, 0.4);
+    height: 80px;
+}
+
+.header__nav__wrapper {
     align-items: center;
     display: flex;
-    height: 100%;
+    height: 80px;
     justify-content: space-between;
     margin: 0 auto;
     max-width: 1200px;
@@ -86,4 +91,46 @@
 
 .header__menu__bar:nth-child(2) {
     margin: 8px 0;
+}
+
+.header__information {
+    margin: 0 auto;
+    margin-top: 45px;
+    max-width: 1200px;
+    padding: 0 10px;
+}
+
+.header__information h1 {
+    font-size: 56px;
+    font-weight: 200;
+}
+
+.header__information h2 {
+    margin-top: 25px;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.header__portfolio__button {
+    background-color: rgba(109, 175, 207, 1);
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    height: 40px;
+    letter-spacing: 0;
+    line-height: 1.33;
+    margin-top: 40px;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    width: 175px;
+}
+
+.header__portfolio__button:hover {
+    background-color: rgba(89, 155, 187, 1);
 }
