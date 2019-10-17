@@ -5,32 +5,6 @@
     width: 100%;
 }
 
-.header__links ul li {
-    border-bottom: 1px solid #ccc;
-    font-size: 22px;
-    font-weight: 200;
-    padding: 30px 0;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.header__links ul li:last-child {
-    border: none;
-}
-
-.header__menu {
-}
-
-.header__menu__bar {
-    background-color: #eee;
-    height: 4px;
-    width: 35px;
-}
-
-.header__menu__bar:nth-child(2) {
-    margin: 8px 0;
-}
-
 .header__information {
     margin: 0 auto;
     margin-top: 45px;
@@ -95,4 +69,10 @@
 
 .header__contact__button:hover {
     background-color: rgba(106, 158, 202, 1);
+}
+
+@media only screen and (max-device-width: 340px) {
+    .header {
+        height: 100vh;
+    }
 }
